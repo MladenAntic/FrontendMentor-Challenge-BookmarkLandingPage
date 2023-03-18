@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bookmark Landing Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="shortcut icon"
+      href="images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media_queries.css">
+  </head>
+  <body>
+    <nav id="navigation" role="navigation">
+      <div class="wrapper">
+        <img src="images/logo-bookmark.svg" class="logo" alt="Logo Bookmark" />
+        <ul class="nav-links">
+          <li class="nav-link"><a href="#">Features</a></li>
+          <li class="nav-link"><a href="#">Pricing</a></li>
+          <li class="nav-link"><a href="#">Contact</a></li>
+          <li class="nav-link"><a href="#" class="login-btn">Login</a></li>
+        </ul>
+        <img
+          src="images/icon-hamburger.svg"
+          class="toggle-menu"
+          alt="Icon Hamburger"
+        />
+      </div>
+    </nav>
+
+    <nav id="mobile-navigation">
+      <ul class="mobile-nav-links">
+        <li class="mobile-nav-link"><a href="#">Features</a></li>
+        <li class="mobile-nav-link"><a href="#">Pricing</a></li>
+        <li class="mobile-nav-link"><a href="#">Contact</a></li>
+        <li class="mobile-nav-link">
+          <a href="#" class="mobile-login-btn"></a>
+        </li>
+      </ul>
+
+      <div class="social-links-mobile">
+        <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+      </div>
+    </nav>
+
+    <section id="hero" role="banner">
+      <div class="wrapper">
+        <div class="hero-content">
+          <h1 class="hero-title">A Simple Bookmark Manager</h1>
+          <p class="hero-description">
+            A clean and simple interface to organize your favourite websites.
+            Open a new browser tab and see your sites load instantly. Try it for
+            free.
+          </p>
+          <div class="call-to-action">
+            <a href="#" class="cta-btn cta-chrome">Get it on Chrome</a>
+            <a href="#" class="cta-btn cta-firefox">Get it on Firefox</a>
+          </div>
+        </div>
+        <img
+          src="images/illustration-hero.svg"
+          class="illustration-hero"
+          alt="Illustration Hero"
+        />
+      </div>
+      <div class="hero-bg"></div>
+    </section>
+
+    <section id="features">
+      <h2 class="features-title">Features</h2>
+      <p class="features-description">
+        Our aim is to make it quick and easy for you to access your favourite
+        websites. Your bookmark sync between your devices so you can access them
+        on the go.
+      </p>
+      <ul class="features">
+        <li class="feature">
+          Simple Bookmarking
+          <span class="highlight"></span>
+        </li>
+        <li class="feature">
+          Speedy Searching
+          <span class="highlight"></span>
+        </li>
+        <li class="feature">
+          Easy Sharing
+          <span class="highlight"></span>
+        </li>
+      </ul>
+      <div class="wrapper">
+        <img
+          src="images/illustration-features-tab-1.svg"
+          class="illustration-feature-tab"
+          alt="Illustration Feature Tab"
+        />
+        <div class="feature-content">
+          <h3 class="feature-title">Bookmark in one click</h3>
+          <p class="feature-description">
+            Organize you bookmarks however you like. Our simple drag-and-drop
+            interface gives you complete control over how you manage your
+            favourite sites.
+          </p>
+          <a href="#" class="more-info-btn">More info</a>
+        </div>
+      </div>
+      <div class="features-bg"></div>
+    </section>
+
+    <section id="download">
+      <h2 class="download-title">Download the extension</h2>
+      <p class="download-description">
+        We've got more browsers in the pipeline. Please do let us know if you've
+        got a favourite you'd like us to prioritize.
+      </p>
+      <div class="browsers">
+        <div class="browser">
+          <img
+            src="images/logo-chrome.svg"
+            class="browser-logo"
+            alt="Logo Chrome"
+          />
+          <h4 class="browser-title">Add to Chrome</h4>
+          <small class="version">Minimum version 62</small>
+          <div class="divider"></div>
+          <a href="#" class="add-extension-btn">Add & Install Extension</a>
+        </div>
+        <div class="browser">
+          <img
+            src="images/logo-firefox.svg"
+            class="browser-logo"
+            alt="Logo Firefox"
+          />
+          <h4 class="browser-title">Add to Firefox</h4>
+          <small class="version">Minimum version 55</small>
+          <div class="divider"></div>
+          <a href="#" class="add-extension-btn">Add & Install Extension</a>
+        </div>
+        <div class="browser">
+          <img
+            src="images/logo-opera.svg"
+            class="browser-logo"
+            alt="Logo Opera"
+          />
+          <h4 class="browser-title">Add to Chrome</h4>
+          <small class="version">Minimum version 46</small>
+          <div class="divider"></div>
+          <a href="#" class="add-extension-btn">Add & Install Extension</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq">
+      <h2 class="faq-title">Frequently Asked Questions</h2>
+      <p class="faq-description">
+        Here are some of our FAQs. If you have any other questions you'd like
+        answered please feel free to email us.
+      </p>
+      <ul class="questions">
+        <li>
+          <div class="question">
+            What is Bookmark?
+            <img src="images/icon-arrow.svg" class="arrow" alt="Arrow" />
+          </div>
+          <p class="answer hide">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum
+            voluptas quis totam in sint molestias itaque ullam, expedita amet
+            est quibusdam quod animi consequatur mollitia fugiat rem consectetur
+            impedit necessitatibus!
+          </p>
+        </li>
+        <li>
+          <div class="question">
+            How can I request a new browser?
+            <img src="images/icon-arrow.svg" class="arrow" alt="Arrow" />
+          </div>
+          <p class="answer hide">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum
+            voluptas quis totam in sint molestias itaque ullam, expedita amet
+            est quibusdam quod animi consequatur mollitia fugiat rem consectetur
+            impedit necessitatibus!
+          </p>
+        </li>
+        <li>
+          <div class="question">
+            Is there a mobile app?
+            <img src="images/icon-arrow.svg" class="arrow" alt="Arrow" />
+          </div>
+          <p class="answer hide">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum
+            voluptas quis totam in sint molestias itaque ullam, expedita amet
+            est quibusdam quod animi consequatur mollitia fugiat rem consectetur
+            impedit necessitatibus!
+          </p>
+        </li>
+        <li>
+          <div class="question">
+            What about other Chromium browsers?
+            <img src="images/icon-arrow.svg" class="arrow" alt="Arrow" />
+          </div>
+          <p class="answer hide">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum
+            voluptas quis totam in sint molestias itaque ullam, expedita amet
+            est quibusdam quod animi consequatur mollitia fugiat rem consectetur
+            impedit necessitatibus!
+          </p>
+        </li>
+      </ul>
+      <a href="#" class="more-info-btn">More Info</a>
+    </section>
+
+    <section id="newsletter">
+      <span class="number-joined">35,000+ already joined</span>
+      <h2 class="newsletter-title">
+        Stay up-to-date with what <br class="break" />
+        we're doing.
+      </h2>
+      <form>
+        <input type="email" id="email" placeholder="Enter your email address" />
+        <a href="#" class="contact-btn">Contact Us</a>
+        <img src="images/icon-error.svg" class="icon-error" alt="Icon Error" />
+        <small class="error-message">Whoops, make sure it's an email</small>
+      </form>
+    </section>
+
+    <footer id="footer" role="contentinfo">
+      <div class="wrapper">
+        <ul class="footer-nav">
+          <li class="footer-nav-link">
+            <img
+              src="images/footer-logo.svg"
+              class="footer-logo"
+              alt="Footer Logo"
+            />
+          </li>
+          <li class="footer-nav-link"><a href="#">Features</a></li>
+          <li class="footer-nav-link"><a href="#">Pricing</a></li>
+          <li class="footer-nav-link"><a href="#">Contact</a></li>
+        </ul>
+        <div class="social-links">
+          <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+      </div>
+    </footer>
+    <script src="js/faq.js"></script>
+    <script src="js/features.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
